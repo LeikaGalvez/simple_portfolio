@@ -1,0 +1,91 @@
+.navbar a{
+			color: white;
+}
+		
+.nav li a:hover{
+			background: grey;
+			color: rgb(30, 27, 49);
+}
+		
+.navbar-header a{
+			font-size: 25px;
+}
+		
+.navbar-custom{
+			z-index: 1000;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			background-color: black;
+			margin-bottom: 50px;
+}
+
+header{
+			height: 300px;
+			padding: 100px 50px;
+			color: white;
+}
+		
+header h1{
+	font-size: 75px;
+	
+}
+
+#post{
+	border-bottom: 1px solid black;
+}
+
+#post h1{
+	font-weight: bold;
+}
+		
+#post h1 a{
+	color: navy;
+	text-decoration: none;
+}
+
+#post h1 a:hover{
+	color: red;
+}
+
+.down-btn{
+	padding: 50px 0px;
+}
+
+.btn{
+	border-radius: 0;
+}
+
+.btn-default:hover{
+	background: skyblue;
+}
+
+.nav-mycenter{
+	float: none;
+	display: table;
+	table-layout: fixed;
+	margin: 0 auto;
+}
+
+.nav-mycenter li a:hover{
+	background: white;
+}
+
+
+#about p {
+	font-size:25px;
+}
+
+section {
+	width: absolute;
+	height: absolute;
+	padding-top: 60px;
+}
+
+.dprog{
+	padding-top: 60px;
+}
+
+#carousel{
+	z-index: 1;
+}
